@@ -103,8 +103,10 @@ a:hover {
 a:active {
     color: crimson;
 }
-.removeborder {
+.noborder {
     padding: 0;
     border: none;
     background: none;
+    border-width: 0px;
+    box-shadow: none;
 }
