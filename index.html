@@ -9,6 +9,32 @@
          <br>
          <br>
          <br>
+         <script>
+             function readText() {
+             var value1 = document.getElementById("trcode").value;
+             var value2 = document.getElementById("trfcode").value;
+             console.log(`value1 = ${value1}`);
+             console.log(`value2 = ${value2}`);     
+             if (value1 === value2) {
+                 // location.href = "http://127.0.0.1:8000/myposts";
+                 alert("İZİN VERİLDİ");
+             } else {
+                 alert("İZİN VERİLMEDİ");
+             }
+}
+         </script>
+             <form onsubmit="return (function(event) { event.preventDefault();  readText()}) (event)">
+                <tr>
+                    <td height="18" class="subheaderboldtext"> Enter Code:
+                        <input id="trcode" maxlength="8" class="box">
+                        <input class="submit" type="submit" value="SUBMIT">
+        
+                        <!-- <img src="/static/guest/images/querybutton.png" alt="Query Button" /> -->
+                    </td>
+                </tr>
+            </form>
+         <button id="trfcode" value="z">z</button>
+         <input type="text" onclick="code()" value="Çağan'dan Oyun Değerlendirmeleri" style="color: crimson; background-color: black;"></h2>
          <a href="specialreviews.html"><h3 style="color: crimson; text-align: left;">Çağan'dan Oyun Değerlendirmeleri</h3></a> 
          <a href="love.html"><h3 style="color: crimson; text-align: left;">luv</h3></a>
          <a href="wip.html"><h3 style="color: crimson; text-align: left;">Discord</h3></a>
