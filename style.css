@@ -86,20 +86,20 @@
 }
 /* unvisited link */
 a:link {
-    color: darkred;
+    color: crimson;
 }
 
 /* visited link */
 a:visited {
-    color: darkred;
+    color: crimson;
 }
 
 /* mouse over link */
 a:hover {
-    color: goldenrod;
+    color: crimson;
 }
 
 /* selected link */
 a:active {
-    color: white;
+    color: crimson;
 }
