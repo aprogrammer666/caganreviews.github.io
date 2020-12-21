@@ -110,3 +110,7 @@ a:active {
     border-width: 0px;
     box-shadow: none;
 }
+.bnr {
+    background-color: black;
+    color: crimson;
+}
