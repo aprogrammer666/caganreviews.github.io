@@ -1,0 +1,105 @@
+.sfont1 { 
+    font-size: 25px
+}
+.nl {
+    text-decoration: none;
+}
+.c5 {
+    color: rgb(179, 179, 179);
+}
+.c6 {
+    color: darkgray;
+}
+.c7 {
+    color: red;
+}
+.c8 {
+    color: rgb(116, 109, 17)
+}
+.crimson {
+    color: crimson !important;
+}
+.right {
+    text-align: right;
+}
+.boxt1 {
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+.center {
+    right: 500px;
+    width: auto;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.gtn {
+    position: absolute;
+    top: 3cm;
+    left: 16px;
+}
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hidden {
+    visibility: hidden
+}
+/* unvisited link */
+a:link {
+    color: darkred;
+}
+
+/* visited link */
+a:visited {
+    color: darkred;
+}
+
+/* mouse over link */
+a:hover {
+    color: goldenrod;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
