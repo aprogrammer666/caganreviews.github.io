@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>aşkını hesapla!</title>
+        <link href="style.css" type="text/css" rel="stylesheet">  
+    </head>
+    <body style="background-color: black; color: crimson;">
+        <script type="text/javascript">
+            function love() {
+            var kisi1 = window.prompt("1. Kişi:");
+            var kisi2 = window.prompt("2. Kişi:");
+            var olasilik = Math.floor(Math.random() * 100)
+            alert(kisi1 + " ile " + kisi2 + " arasındaki aşk " + olasilik)
+            }
+        </script>
+        <button style="background-color: black;" class="centered" onclick="love()">
+        <h1 style="color: crimson; background-color: black;">Love Calculator</h1>
+        </button>
+    </body>
+</html>
