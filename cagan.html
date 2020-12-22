@@ -8,6 +8,10 @@
          <h1 style="color: crimson;"></h1>
          <audio id="audioplayer" autobuffer="" loop="true" preload="auto" src="winter.mp3">
          </audio>
+         <script>
+            var audio = document.getElementById("audioplayer");
+            audio.volume = 0.7;
+          </script>
          <script src="audio.js"></script>
          <br>
          <br>
@@ -94,6 +98,12 @@
         }
         else if (oyun === "yiğit") {
             alert("kendini tekrar etmeye basliyor bir sure sonra. hep ayni seylerle ugrasip duruyoruz 8/10");
+        }
+        else if (oyun === "blacklist") {
+            alert("bruuuh. boomer dizisi.");
+        }
+        else if (oyun === "netflix") {
+            alert("ne zaman oyuna girsem hiç yapıcak bir şey bulamıyorum. içerik yok. 6,5/10");
         }
         else if (oyun === "kayra'nın annesi") {
             alert("size göre uzun veya kısa sürebilir. ilk oynayışımda hiç durmadan oynadığım için 5 dakika civarı sürse bile 2. seferde oyunu yan görevleri yaparak 40 dakikada bitirdim. 8/10");
