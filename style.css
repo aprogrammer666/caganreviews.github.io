@@ -87,21 +87,25 @@
 /* unvisited link */
 a:link {
     color: crimson;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: crimson;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: crimson;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
     color: crimson;
+    text-decoration: none;
 }
 .noborder {
     padding: 0;
