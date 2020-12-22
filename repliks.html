@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dumdum</title>
+        <link href="style.css" type="text/css" rel="stylesheet">  
+    </head>
+    <body class="bnr">
+         <audio id="audioplayer" autobuffer="" loop="true" preload="auto" src="winter.mp3">
+         </audio>
+         <script>
+            var audio = document.getElementById("audioplayer");
+            audio.volume = 0.5;
+          </script>
+         <p id = "GFG_UP" style =  
+         "font-size: 15px; font-weight: bold;">  
+         <h1 style = "color: crimson; font-size: 32pt;" class="top">  
+            Dumdum Repliks  
+        </h1>  
+          
+        <p id = "GFG_UP" style =  
+            "font-size: 15px; font-weight: bold;">  
+        </p> 
+          
+        <button id = "button" class="noborder" style="color: crimson; position: absolute; left: 46%; top: 10%;" onclick = "GFG_Fun()">  
+            Replik almak için tıklatınız 
+        </button>  
+          
+        <p id = "GFG_DOWN" style = "font-size: 24px; font-weight: bold; color: crimson; position: absolute; left: 50%; top: 40%; transform: translate(-50%, -50%);">  
+        </p>  
+          
+        <script>  
+            var up = document.getElementById('GFG_UP');  
+            var down = document.getElementById('GFG_DOWN');  
+              
+            var arr = ["Neeee, wtf. - Selim Çağan Çiftçi", "Olum neden her şeyimi kayıt altına alıyorsunuz - Selim Çağan Çiftçi", "Balon. - Selim Çağan Çiftçi", "Cyberpunk harika oyun. - Bartu Gündoğdu",
+                       "", "", "", "", "",]; 
+              
+            function GFG_Fun() { 
+                down.innerHTML =  
+                    arr[Math.floor(Math.random() * arr.length)]; 
+            }  
+        </script>  
+         </p> 
+          <br>
+          <br>
+          <br>
+          <h4>
+            <a class="bottom-right" href="redirect.html">
+              Geri Dön
+            </a>
+        </h4>
+    </body>
+</html>
