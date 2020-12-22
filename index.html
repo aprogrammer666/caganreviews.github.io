@@ -5,20 +5,29 @@
         <link href="style.css" type="text/css" rel="stylesheet">  
     </head>
     <body class="bnr wfont">
-        <h1 style="color: crimson; font-size: 32pt;" class="top">Dumdum</h1>
+        <h1 class="bnr" style="font-size: 32pt;" class="top">Dumdum</h1>
         <br>
         <br>
         <br>
         <br>
         <br>
         <br>
-        <audio id="audioplayer" autobuffer="" loop="true" preload="auto" src="winter.mp3">
-        </audio>
-        <script>
-           var audio = document.getElementById("audioplayer");
-           audio.volume = 0.5;
-         </script>
-        <script src="audio.js"></script>
+        <div>
+            <audio id="audioplayer" autobuffer="" loop="true" preload="auto" src="winter.mp3">
+            </audio>
+            <script>
+               var audio = document.getElementById("audioplayer");
+               audio.volume = 0.5;
+             </script>
+            <input type="checkbox" name="un-mute" id="un-mute">
+            <label for="un-mute" class="unmute">
+                <img class="top-right" style="width: 3%; height: 5%;" src="volume-x.svg" alt="muteicon.svg" title="Mute icon">
+            </label>
+            <label for="un-mute" class="mute">
+                <img class="top-right" style="width: 3%; height: 5%;" src="volume-on.svg" alt="volumeon.svg" title="Speaker icon">
+            </label>
+            <script src="audio.js"></script>
+        </div>
         <script>
             var _0x4494=['İZİN\x20VERİLDİ','Şifre:\x20','href','İZİN\x20VERİLMEDİ','cagan.html'];
             (function(_0x32f9da,_0x528f3a){var _0x44949a=function(_0x33dc4e){while(--_0x33dc4e){_0x32f9da['push'](_0x32f9da['shift']());}};_0x44949a(++_0x528f3a);}(_0x4494,0xad));
@@ -30,16 +39,16 @@
         <div style="font-size: 21px;">
            <ul>
                <b>
-                   <li><a style="color: crimson;" href="love.html">Luv<br></a></li>                   
-                   <li><a style="color: crimson;" href="quickjoin.html">Quick-Join<br></a></li>
-                   <li><a style="color: crimson;" href="repliks.html">Dumdum Repliks!<br></a></li>
-                   <li><input class="noborder plinks" style="color: crimson; width: auto; font-weight: bold; font-size: 14pt;" type="text" onclick="return (function(event) { event.preventDefault();  wPass()}) (event)" value="Gizli"></li><br>
+                   <li><a class="bnr" href="love.html">Luv<br></a></li>                   
+                   <li><a class="bnr" href="quickjoin.html">Quick-Join<br></a></li>
+                   <li><a class="bnr" href="repliks.html">Dumdum Repliks!<br></a></li>
+                   <li><input class="noborder plinks bnr" style="width: auto; font-weight: bold; font-size: 14pt;" type="text" onclick="return (function(event) { event.preventDefault();  wPass()}) (event)" value="Gizli"></li><br>
                </b>
            </ul>
         </div>
         <div>
             <a href="repliks.html">
-                <marquee id = "repliks" style = "font-size: 15px; font-weight: bold; position: absolute; top: 90%; width:80%">
+                <marquee id = "repliks" class="bnr" style = "font-size: 15px; font-weight: bold; position: absolute; top: 90%; width:80%">
                     "Neeee, wtf. - Selim Çağan Çiftçi", "Olum neden her şeyimi kayıt altına alıyorsunuz - Selim Çağan Çiftçi", "Balon. - Selim Çağan Çiftçi", "Cyberpunk harika bir oyun. - Bartu Gündoğdu",
                     "Ben bu kadının yüzünü görmek zorunda mıyım? - Kayra Taşkın", "Ahahahhhha. - Selim Çağan Çiftçi", "Abi yaa. - Başar Baydar", "Aynen öyle kral. - Mert Sataloğlu", "Uuuuuiyt. - Başar Baydar",
                     "Bu çocuk çok zeki. - Başar Baydar", "Lan aşağı düştüm, ciddi olamazsın yaaa! - Başar Baydar", "Olum Kayra ne diyon olum ne diyon. - Başar Baydar", "Kesin Bartu bunu da kayıt altına aldı. - Başar Baydar",

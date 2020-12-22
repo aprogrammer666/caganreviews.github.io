@@ -86,25 +86,25 @@
 }
 /* unvisited link */
 a:link {
-    color: crimson;
+    color: #7289da;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: crimson;
+    color: c#7289da;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: crimson;
+    color: #7289da;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: crimson;
+    color: #7289da;
     text-decoration: none;
 }
 .noborder {
@@ -115,7 +115,7 @@ a:active {
 }
 .bnr {
     background-color: #23272a;
-    color: crimson;
+    color: #7289da;
 }
 .plinks {
     font-size: 18pt;
@@ -130,4 +130,22 @@ p input {
     font-size: inherit;
     padding: none;
     width: auto;
-  }
+}
+input#un-mute {
+  display: none;
+}
+
+.unmute img {
+  display: none;
+}
+
+input#un-mute:checked ~ .unmute img {
+  display: initial;
+}
+
+input#un-mute:checked ~ .mute img {
+  display: none;
+}
+.dqjt {
+    color: #99aab5;
+}
